@@ -163,4 +163,18 @@
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'About',
+        owner: 'hapoyige/hapoyige',
+        repo: 'hapoyige.github.io',
+        oauth: {
+            client_id: 'c00a93a12fbdf874defc',
+            client_secret: '3f773f09baa58891d4d6e2bc5065f04780c89a70',
+        },
+    })
+    gitment.render('comment-container')
+</script>
+
 </html>
