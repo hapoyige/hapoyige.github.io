@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title>python中JSON序列化错误</title>
+      <link href="/2018/05/31/python%E4%B8%ADJSON%E5%BA%8F%E5%88%97%E5%8C%96%E9%94%99%E8%AF%AF/"/>
+      <url>/2018/05/31/python%E4%B8%ADJSON%E5%BA%8F%E5%88%97%E5%8C%96%E9%94%99%E8%AF%AF/</url>
+      <content type="html"><![CDATA[<p>TypeError: 0 is not JSON serializable</p><p>0怎么就不能序列化了呢？查资料发现可能是数据类型的原因，代码中，这个0的数据类型并不是python自带的，<br>而是np.int64之类的。加个类型转换int()即可。<br>参考：<a href="https://stackoverflow.com/questions/11942364/typeerror-integer-is-not-json-serializable-when-serializing-json-in-python" target="_blank" rel="noopener">https://stackoverflow.com/questions/11942364/typeerror-integer-is-not-json-serializable-when-serializing-json-in-python</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> json </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>test_my_site</title>
       <link href="/2018/05/25/test-my-site/"/>
       <url>/2018/05/25/test-my-site/</url>

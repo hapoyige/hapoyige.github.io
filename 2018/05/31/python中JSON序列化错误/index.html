@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        python中JSON序列化错误 - undefined
         
     </title>
 
@@ -65,7 +65,7 @@
                     <span>标签</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/archives">
                     <i class="iconfont icon-guidang2"></i>
                     <span>存档</span>
@@ -87,6 +87,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -113,65 +117,36 @@
         
 
 
-<!-- 归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        python中JSON序列化错误
+    </div>
 
-<div class="archives-container">
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-05-31 22:10:31</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#python" title="python">python</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#json" title="json">json</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>TypeError: 0 is not JSON serializable</p>
+<p>0怎么就不能序列化了呢？查资料发现可能是数据类型的原因，代码中，这个0的数据类型并不是python自带的，<br>而是np.int64之类的。加个类型转换int()即可。<br>参考：<a href="https://stackoverflow.com/questions/11942364/typeerror-integer-is-not-json-serializable-when-serializing-json-in-python" target="_blank" rel="noopener">https://stackoverflow.com/questions/11942364/typeerror-integer-is-not-json-serializable-when-serializing-json-in-python</a></p>
 
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-31</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/05/31/python中JSON序列化错误/">
-                        <span>
-                            python中JSON序列化错误
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-25</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/05/25/test-my-site/">
-                        <span>
-                            test_my_site
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-25</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/05/25/hello-world/">
-                        <span>
-                            Hello World!
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-
-    </ul>
-</div>
-
+        <div id="comment-container">
+        </div>
+    </div>
 </div>
     </div>
 </div>
@@ -211,10 +186,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'python中JSON序列化错误',
+        owner: 'hapoyige',
+        repo: 'hapoyige.github.io',
+        oauth: {
+            client_id: 'c00a93a12fbdf874defc',
+            client_secret: '3f773f09baa58891d4d6e2bc5065f04780c89a70',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
