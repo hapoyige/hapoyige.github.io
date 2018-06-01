@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title>python缩进s错误</title>
+      <link href="/2018/06/01/python%E7%BC%A9%E8%BF%9B%E9%94%99%E8%AF%AF/"/>
+      <url>/2018/06/01/python%E7%BC%A9%E8%BF%9B%E9%94%99%E8%AF%AF/</url>
+      <content type="html"><![CDATA[<p>IndentationError: unindent does not match any outer indentation level<br>TabError: inconsistent use of tabs and spaces in indentation<br>可能出现这两个报错</p><p>这是由于代码中四个空格和Tab混搭造成的，经常由文件传输、格式转换、编辑器之类的原因造成。比如转换中自动把Tab变成了四个空格。我遇到的场景是作业中补全代码的时候，直接在notePad++里面改，我自己用的\t，但是其余代码是四空格，引发了错误，也没想到很好的办法，好在代码也不长，就直接对用空格的地方选中，Tab，Shift+Tab，全部改了过来。同时也了解了NotePad++看这些制表符的方法：<br>菜单里面：    视图-》显示符号——》显示空格与制表符        这样可以看到哪些地方是tab哪些地方是空格。<br><img src="/2018/06/01/python缩进错误/Image.png"></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 编辑器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>python中JSON序列化错误</title>
       <link href="/2018/05/31/python%E4%B8%ADJSON%E5%BA%8F%E5%88%97%E5%8C%96%E9%94%99%E8%AF%AF/"/>
       <url>/2018/05/31/python%E4%B8%ADJSON%E5%BA%8F%E5%88%97%E5%8C%96%E9%94%99%E8%AF%AF/</url>

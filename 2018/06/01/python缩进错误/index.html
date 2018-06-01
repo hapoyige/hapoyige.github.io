@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        python缩进s错误 - undefined
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -111,94 +115,39 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-06-01</div>
-        <div class="post-info">
-            <a href="/2018/06/01/python缩进错误/">
-                <h3>
-                    python缩进s错误
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#python" title="python">python</a>
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#编辑器" title="编辑器">编辑器</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-05-31</div>
-        <div class="post-info">
-            <a href="/2018/05/31/python中JSON序列化错误/">
-                <h3>
-                    python中JSON序列化错误
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#python" title="python">python</a>
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#json" title="json">json</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-05-25</div>
-        <div class="post-info">
-            <a href="/2018/05/25/test-my-site/">
-                <h3>
-                    test_my_site
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-05-25</div>
-        <div class="post-info">
-            <a href="/2018/05/25/hello-world/">
-                <h3>
-                    Hello World!
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#生活" title="生活">生活</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        python缩进s错误
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-06-01 13:16:10</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#python" title="python">python</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#编辑器" title="编辑器">编辑器</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>IndentationError: unindent does not match any outer indentation level<br>TabError: inconsistent use of tabs and spaces in indentation<br>可能出现这两个报错</p>
+<p>这是由于代码中四个空格和Tab混搭造成的，经常由文件传输、格式转换、编辑器之类的原因造成。比如转换中自动把Tab变成了四个空格。我遇到的场景是作业中补全代码的时候，直接在notePad++里面改，我自己用的\t，但是其余代码是四空格，引发了错误，也没想到很好的办法，好在代码也不长，就直接对用空格的地方选中，Tab，Shift+Tab，全部改了过来。同时也了解了NotePad++看这些制表符的方法：<br>菜单里面：    视图-》显示符号——》显示空格与制表符        这样可以看到哪些地方是tab哪些地方是空格。<br><img src="/2018/06/01/python缩进错误/Image.png"></p>
+
+        
+        <div id="comment-container">
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
@@ -237,10 +186,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'python缩进s错误',
+        owner: 'hapoyige',
+        repo: 'hapoyige.github.io',
+        oauth: {
+            client_id: 'c00a93a12fbdf874defc',
+            client_secret: '3f773f09baa58891d4d6e2bc5065f04780c89a70',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
