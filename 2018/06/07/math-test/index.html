@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        math_test - undefined
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -111,120 +115,36 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-06-07</div>
-        <div class="post-info">
-            <a href="/2018/06/07/math-test/">
-                <h3>
-                    math_test
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#数学" title="数学">数学</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-06-01</div>
-        <div class="post-info">
-            <a href="/2018/06/01/半吊子的人，不幸福/">
-                <h3>
-                    半吊子的人，不幸福
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#生活" title="生活">生活</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-06-01</div>
-        <div class="post-info">
-            <a href="/2018/06/01/python缩进错误/">
-                <h3>
-                    python缩进s错误
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#python" title="python">python</a>
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#编辑器" title="编辑器">编辑器</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-05-31</div>
-        <div class="post-info">
-            <a href="/2018/05/31/python中JSON序列化错误/">
-                <h3>
-                    python中JSON序列化错误
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#python" title="python">python</a>
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#json" title="json">json</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-05-25</div>
-        <div class="post-info">
-            <a href="/2018/05/25/hello-world/">
-                <h3>
-                    Hello World!
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#生活" title="生活">生活</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        math_test
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-06-07 10:18:19</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#数学" title="数学">数学</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>$$f(x) = a_1x^n + a_2x^{n-1} + a_3x^{n-2}$$</p>
+<p>测试一下数学公式ok不ok了</p>
+
+        
+        <div id="comment-container">
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
@@ -263,10 +183,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'math_test',
+        owner: 'hapoyige',
+        repo: 'hapoyige.github.io',
+        oauth: {
+            client_id: 'c00a93a12fbdf874defc',
+            client_secret: '3f773f09baa58891d4d6e2bc5065f04780c89a70',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>

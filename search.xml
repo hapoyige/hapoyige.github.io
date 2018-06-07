@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>math_test</title>
+      <link href="/2018/06/07/math-test/"/>
+      <url>/2018/06/07/math-test/</url>
+      <content type="html"><![CDATA[<p>$$f(x) = a_1x^n + a_2x^{n-1} + a_3x^{n-2}$$</p><p>测试一下数学公式ok不ok了</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>半吊子的人，不幸福</title>
       <link href="/2018/06/01/%E5%8D%8A%E5%90%8A%E5%AD%90%E7%9A%84%E4%BA%BA%EF%BC%8C%E4%B8%8D%E5%B9%B8%E7%A6%8F/"/>
       <url>/2018/06/01/%E5%8D%8A%E5%90%8A%E5%AD%90%E7%9A%84%E4%BA%BA%EF%BC%8C%E4%B8%8D%E5%B9%B8%E7%A6%8F/</url>
