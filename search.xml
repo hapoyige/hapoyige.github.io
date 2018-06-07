@@ -6,7 +6,7 @@
       <title>math_test</title>
       <link href="/2018/06/07/math-test/"/>
       <url>/2018/06/07/math-test/</url>
-      <content type="html"><![CDATA[<p>$$f(x) = a_1x^n + a_2x^{n-1} + a_3x^{n-2}$$</p><p>测试一下数学公式ok不ok了</p>]]></content>
+      <content type="html"><![CDATA[<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><p>$$f(x) = a_1x^n + a_2x^{n-1} + a_3x^{n-2}$$</p><p>测试一下数学公式ok不ok了</p>]]></content>
       
       
         <tags>
